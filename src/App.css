@@ -10,6 +10,14 @@
 
   }
 
+  .PageTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 5vw;
+  }
+
   .navbar {
     font-size: 18px;
     background-color: rgb(171, 205, 232, 0.7);
@@ -71,10 +79,11 @@
 
   .main-nav li {
       margin: 0;
+      width: 25vw;
   }
 
   .nav-links {
-      margin-left: 40px;
+     
   }
 
   .logo {

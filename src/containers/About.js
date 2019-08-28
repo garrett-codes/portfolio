@@ -4,7 +4,9 @@ class About extends React.Component {
 
 	render = () => {
 		return (
-			<div> Hi from About </div>
+			<div>
+				<h1 className="PageTitle"> About me</h1>
+			</div>
 		)
 	}
 }
