@@ -1,10 +1,11 @@
 import React from 'react';
+import Project from '../components/Project'
 
 class Projects extends React.Component {
 
 	render = () => {
 		return (
-			<div> Hi from projects </div>
+			<Project />
 		)
 	}
 }
