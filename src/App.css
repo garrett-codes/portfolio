@@ -110,4 +110,27 @@
 
   /********* contact me ***********/
 
-  
+  .contact-item {
+    margin-top: 3em;
+    margin-left: 4em;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .mail-to {
+    text-decoration: none;
+  }
+
+  .contact-item:hover {
+    cursor:pointer;
+    color: #E8E8E8;
+  }
+
+  .icons {
+    width: 3em;
+  }
+
+  .contacts {
+    display: inline-block
+  }
