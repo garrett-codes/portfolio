@@ -128,9 +128,44 @@
   }
 
   .icons {
-    width: 3em;
+    width: 2em;
   }
 
   .contacts {
-    display: inline-block
+    display: flex
+  }
+
+  .img-div {
+    height: 3em;
+  }
+
+  .linkedIn {
+    height: 55px;
+    width: 55px;
+  }
+
+  /**********about**********/
+
+  .about-blurb {
+    margin-top: 1em;
+    margin-left: 5vw;
+    margin-right: 3em;
+    color: #FFFFFF;
+    font-size: 24px;
+    max-width: 35em;
+  }
+
+  .me {
+    margin-top: 5vh;
+    width: 10em;
+    border-radius: 10em;
+    margin-left: 5vw;
+  }
+
+  .about-me-with-pic {
+    display: inline-block;
+  }
+
+  .about-me {
+    margin-top: 0;
   }
