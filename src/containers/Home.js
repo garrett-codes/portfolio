@@ -1,6 +1,5 @@
 import React from 'react';
 import Typed from 'react-typed';
-import Tilt from 'react-tilt';
 
 class Home extends React.Component {
 
