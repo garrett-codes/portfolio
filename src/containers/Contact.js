@@ -1,5 +1,6 @@
 import React from 'react';
-import ContactBody from '../components/ContactBody'
+import ContactBody from '../components/ContactBody';
+
 
 class Contact extends React.Component {
 
