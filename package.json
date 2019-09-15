@@ -7,6 +7,7 @@
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
+    "react-tilt": "^0.1.4",
     "react-typed": "^1.2.0",
     "typed.js": "^2.0.10"
   },

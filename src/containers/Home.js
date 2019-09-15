@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
+import Tilt from 'react-tilt';
 
 class Home extends React.Component {
 
@@ -14,7 +15,7 @@ class Home extends React.Component {
 	          typeSpeed={45}
 	          backSpeed={30}
 						>
-	        </Typed>
+	      </Typed>
 			</div>
 		)
 	}

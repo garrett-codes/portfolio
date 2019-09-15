@@ -96,12 +96,12 @@
   }
 
   .nav-links:hover {
-      color: rgba(255, 255, 255, 1);
-      font-weight:bolder
-  }
+     color: #FFFFFF;
+     text-shadow: 0 0 3px #F5F5F5, 0 0 5px #F5F5F5;    
+    }
 
   /**************************
-  TypeWriter Home
+  Home
   **************************/
   .typewriter {
     text-align: center;
@@ -128,7 +128,7 @@
   }
 
   .icons {
-    width: 2em;
+    width: 3em;
   }
 
   .contacts {
@@ -136,12 +136,12 @@
   }
 
   .img-div {
-    height: 3em;
+    height: 4em;
   }
 
   .linkedIn {
-    height: 55px;
-    width: 55px;
+    height: 80px;
+    width: 80px;
   }
 
   /**********about**********/
@@ -168,4 +168,8 @@
 
   .about-me {
     margin-top: 0;
+  }
+
+  .Tilt {
+    width: 3em;
   }
