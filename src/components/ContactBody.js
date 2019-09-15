@@ -1,4 +1,5 @@
 import React from 'react';
+import Tilt from 'react-tilt';
 
 class ContactBody extends React.Component {
 
@@ -32,28 +33,36 @@ class ContactBody extends React.Component {
 				<div className="contacts">
 					<div className="contact-item" onClick={this.openGitHub}>
 						<div className="img-div">
-							<img className="icons" src="https://i.dlpng.com/static/png/4033681_preview.png" />
+							<Tilt className="Tilt" >
+								<img className="icons" src="https://i.dlpng.com/static/png/4033681_preview.png" />
+							</Tilt>
 						</div>
 						<div> Github </div>
 						</div>
 					<div className="contact-item" onClick={this.openLinkedIn}>
-						<div className="img-div">
-							<img className="icons linkedIn" src="https://www.freepnglogos.com/uploads/linkedin-in-logo-png-1.png" />
+						<div className="img-div">					
+							<Tilt className="Tilt" >
+								<img className="icons linkedIn" src="https://www.freepnglogos.com/uploads/linkedin-in-logo-png-1.png" />
+							</Tilt>
 						</div>
 						<div> LinkedIn </div>
 					</div>
 				</div>
 				<div className="contacts">
 					<div className="contact-item" onClick={this.openMedium}>
-						<div className="img-div">
-							<img className="icons" src="https://www.stickpng.com/assets/images/5841c47ba6515b1e0ad75aa3.png" />
+						<div className="img-div">					
+							<Tilt className="Tilt" >
+								<img className="icons" src="https://www.stickpng.com/assets/images/5841c47ba6515b1e0ad75aa3.png" />
+							</Tilt>
 						</div>
 						<div> Medium </div>
 					</div>
 					<a className="mail-to" href="mailto:ghalstein97@gmail.com?">
 						<div className="contact-item">
-							<div className="img-div">
-								<img className="icons" src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png" />
+							<div className="img-div">			
+								<Tilt className="Tilt" >
+									<img className="icons" src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png" />
+								</Tilt>
 							</div>
 							<div> Email: ghalstein97@gmail.com </div>	
 						</div>
