@@ -110,6 +110,10 @@
 
   /********* contact me ***********/
 
+  .Connect {
+    display:inline-block;
+  }
+
   .contact-item {
     margin-top: 3em;
     margin-left: 4em;
@@ -144,6 +148,10 @@
     width: 80px;
   }
 
+  .ContactPage h1 {
+    width: 8em;
+  }
+
   /**********about**********/
 
   .about-blurb {
@@ -172,4 +180,10 @@
 
   .Tilt {
     width: 3em;
+  }
+
+  /***********Projects********/
+
+  .my-projects {
+    display: inline-block;
   }
