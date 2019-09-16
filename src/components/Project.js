@@ -22,7 +22,15 @@ class Project extends React.Component {
 						</Tilt>
 					</div>
 					<div className="video">
-						<h3 className="video-tag">myStocks - Built on VanillaJS with a Rails Backend</h3>
+						<h3 className="video-tag">Trello Clone (Chello) - Built with React and a Rails API</h3>
+						<YouTube
+			        videoId="vYR5io-r43Q"
+			        opts={this.ops}
+			        onReady={this._onReady}
+			      />
+					</div>
+					<div className="video">
+						<h3 className="video-tag">myStocks - Built with VanillaJS with a Rails Backend</h3>
 						<YouTube
 			        videoId="FD5SZM5NosQ"
 			        opts={this.ops}
