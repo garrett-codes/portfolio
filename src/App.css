@@ -203,3 +203,11 @@
   .title {
     display: inline-block;
   }
+
+  .description {
+    list-style:none;
+    color: white;
+  }
+  .description li {
+    margin-bottom: 1em;
+  }
