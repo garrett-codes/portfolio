@@ -187,3 +187,19 @@
   .my-projects {
     display: inline-block;
   }
+
+  .video {
+    margin-top: 3em;
+    margin-left: 5vw;
+  }
+
+  .video-tag {
+    color: white;
+    margin-bottom:1em;
+    font-weight: lighter;
+    font-size: 24px;
+  }
+
+  .title {
+    display: inline-block;
+  }
