@@ -12,9 +12,9 @@ class Project extends React.Component {
     }
   }
 
-  openGitHub = () => {
+  openGitHub = (link) => {
 		// debugger
-	  let win = window.open("https://github.com/Ghalstein", '_blank');
+	  let win = window.open(`https://github.com/Ghalstein/${link}`, '_blank');
 	  win.focus();
 	}
 
