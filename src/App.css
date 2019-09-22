@@ -135,6 +135,10 @@
     width: 3em;
   }
 
+  .icons:hover {
+    opacity: .8;
+  }
+
   .contacts {
     display: flex
   }
@@ -216,5 +220,14 @@
   .icon {
     width: 3em;
     margin-bottom: 1em;
+  }
+
+  .icon:hover {
+    opacity: .8;
+    cursor:pointer;
+  }
+
+  .tilt {
+    width: 3em;
   }
 
