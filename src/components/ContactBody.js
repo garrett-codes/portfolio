@@ -64,7 +64,7 @@ class ContactBody extends React.Component {
 									<img className="icons" src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png" />
 								</Tilt>
 							</div>
-							<div> Email: ghalstein97@gmail.com </div>	
+							<div>ghalstein97@gmail.com </div>	
 						</div>
 					</a>
 				</div>
