@@ -66,7 +66,7 @@ class Project extends React.Component {
 						<li>+ Scraped a stock API to provide accurate real time data upon every stock requested.</li>
 						<li>+ Implemented user interface with fully CSS styling.</li>
 					</ul>
-					<img onClick={() => this.openGitHub()} className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
+					<img onClick={() => this.openGitHub('Stocks')} className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
 					<YouTube
 		        videoId="FD5SZM5NosQ"
 		        opts={this.ops}
