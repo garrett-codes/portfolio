@@ -191,6 +191,7 @@
   .video {
     margin-top: 3em;
     margin-left: 5vw;
+    width: 75vw;
   }
 
   .video-tag {
@@ -211,3 +212,4 @@
   .description li {
     margin-bottom: 1em;
   }
+
