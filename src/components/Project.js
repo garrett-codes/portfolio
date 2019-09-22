@@ -36,6 +36,7 @@ class Project extends React.Component {
 							<li>+ Implemented user interface with fully CSS styling.</li>
 
 						</ul>
+						<img className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
 					<YouTube
 		        videoId="8eRqKUlNYiA"
 		        opts={this.ops}
@@ -50,6 +51,7 @@ class Project extends React.Component {
 						<li>+ Utilized components and their life cycles, props and states via React’s structural hierarchy.</li>
 						<li>+ Implemented user interface with fully CSS styling.</li>
 					</ul>
+					<img className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
 					<YouTube
 		        videoId="vYR5io-r43Q"
 		        opts={this.ops}
@@ -64,6 +66,7 @@ class Project extends React.Component {
 						<li>+ Scraped a stock API to provide accurate real time data upon every stock requested.</li>
 						<li>+ Implemented user interface with fully CSS styling.</li>
 					</ul>
+					<img className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
 					<YouTube
 		        videoId="FD5SZM5NosQ"
 		        opts={this.ops}
