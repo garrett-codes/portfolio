@@ -12,6 +12,12 @@ class Project extends React.Component {
     }
   }
 
+  openGitHub = () => {
+		// debugger
+	  let win = window.open("https://github.com/Ghalstein", '_blank');
+	  win.focus();
+	}
+
 	render = () => {
 		return (
 			<div className="my-projects">
