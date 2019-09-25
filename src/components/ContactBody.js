@@ -45,7 +45,7 @@ class ContactBody extends React.Component {
 								<img className="icons linkedIn" src="https://www.freepnglogos.com/uploads/linkedin-in-logo-png-1.png" />
 							</Tilt>
 						</div>
-						<div> LinkedIn </div>
+						<div className="second-icon"> LinkedIn </div>
 					</div>
 				</div>
 				<div className="contacts">
@@ -64,7 +64,7 @@ class ContactBody extends React.Component {
 									<img className="icons" src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png" />
 								</Tilt>
 							</div>
-							<div>ghalstein97@gmail.com </div>	
+							<div className="second-icon">Gmail </div>	
 						</div>
 					</a>
 				</div>
