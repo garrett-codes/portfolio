@@ -212,7 +212,7 @@
   }
 
   .blurb-container {
-    max-width: 50vw;
+    max-width: 55vw;
 
   }
 
@@ -491,5 +491,9 @@ media queries
     }
     .about-blurb {
       width: 90vw;
+    }
+
+    .typewriter  span {
+      font-size: 40px;
     }
   }
