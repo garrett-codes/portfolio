@@ -5,6 +5,10 @@ import Pdf from '../components/PDF';
 
 class About extends React.Component {
 
+	componentDidMount() {
+	  window.scrollTo(0, 0)
+	}
+
 	render = () => {
 		return (
 			<div>
@@ -21,7 +25,7 @@ class About extends React.Component {
 						<div className="about-blurb">
 							I'm a fullstack developer from the greater New York area. 
 							<div className="about-info">
-								I have a passion for building, teaching and learning. I'm experienced in Java, Ruby on Rails, JavaScript, React, Redux and a background in Computer Science and Chemistry. I discovered software development through my university classes and have enjoyed challenging myself with projects since. 
+								I have a passion for building, teaching and learning. I'm experienced in Java, Ruby on Rails, JavaScript, React, Redux and have a background in Computer Science and Chemistry. I discovered software development through my university classes and have enjoyed challenging myself with projects since. 
 							</div>
 							<div className="about-info">
 								I enthusiastically bring strong skills in team-building, communication, debugging, data analysis and leadership that help progressive companies succeed. My strong background in STEM, along with my creativity, has led me to love computer science and building software.
