@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 class Links extends React.Component {
 	render = () => {
 		return (
-			<ul class="main-nav" id="js-menu">
-				<li><Link to="/" className="nav-links" style={{color: '#FFFFFF'}}>Home</Link></li>
-			  <li><Link to='/projects' className="nav-links" style={{color: '#FFFFFF'}} >Projects</Link></li>
-			  <li><Link to="/about" className="nav-links" style={{color: '#FFFFFF'}}>About</Link></li>
-			  <li><Link to="/contact" className="nav-links" style={{color: '#FFFFFF'}}>Contact</Link></li>
-			</ul>
+			<div class="main-nav" id="js-menu">
+				<div className="home-list-item"><Link to="/" className="nav-links home-link" style={{color: '#FFFFFF'}}>Home</Link></div>
+			  <div className="other-links ">
+				  <div className="nav-links"><Link to='/projects' className="other-link" style={{color: '#FFFFFF'}} >Projects</Link></div>
+				  <div className="nav-links"><Link to="/about" className="other-link" style={{color: '#FFFFFF'}}>About</Link></div>
+				  <div className="nav-links"><Link to="/contact" className="other-link" style={{color: '#FFFFFF'}}>Contact</Link></div>
+				</div>
+			</div>
 		)
 	}
 }
