@@ -8,6 +8,10 @@ class Project extends React.Component {
 		front: true
 	}
 
+	componentDidMount() {
+	  window.scrollTo(0, 0)
+	}
+
 	ops = {
     width: '300vw',
     height: '200vh',
