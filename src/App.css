@@ -12,9 +12,11 @@
   }
 
   .PageTitle {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: lighter;
-    font-size: 40px;
+    /*font-family: initial !important;
+    font-size: initial !important;*/
+    font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-weight: 900;
+    font-size: 72px;
     color: #000000;
     margin-top: 5vh;
     margin-left: 5vw;
@@ -125,6 +127,12 @@
     text-decoration: none;
   }
 
+  .contact-title {
+    max-width: 80vw;
+    display:flex;
+    flex-wrap:wrap;
+  }
+
   .mail-to {
     text-decoration: none;
   }
@@ -183,8 +191,14 @@
     margin-left: 5vw;
     margin-right: 3em;
     color: #000000;
-    font-size: 24px;
+    font-size: 32px;
     max-width: 35em;
+  }
+
+  .about-info {
+    margin-top: 1em;
+    font-size: 21px;
+    line-height: 2em
   }
 
   .me {
