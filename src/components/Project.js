@@ -42,7 +42,10 @@ class Project extends React.Component {
 						</div>
 					:
 						<div className="back-card">
-							<h3 classnName="project-about">About</h3>
+							<div className="back-card-title">
+								<h3 className="project-about" onClick={this.handleToggle}>About</h3>
+								<h3 onClick={this.handleToggle} className="close-out">-</h3>
+							</div>
 							<ul className="description">
 								{this.props.description.map(bullet => <li>{bullet}</li>)}
 							</ul>
