@@ -225,19 +225,29 @@
     display: inline-block;
   }
 
+  .projects {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+
   .video {
     margin-top: 3em;
     margin-left: 5vw;
-    width: 75vw;
+    width: 25vw;
+    min-width: 10em;
     border: 2px solid #000000;
     padding: 10px;
   }
 
   .video-tag {
     color: #000000;
-    margin-bottom:1em;
+    margin-bottom:2px;
     font-weight: lighter;
     font-size: 24px;
+  }
+  .title-description {
+    margin-bottom: 1em;
   }
 
   .title {
