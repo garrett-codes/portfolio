@@ -22,6 +22,12 @@ class Project extends React.Component {
 	  win.focus();
 	}
 
+	openYoutube = (link) => {
+		// debugger
+	  let win = window.open(`https://www.youtube.com/watch?v=${link}`, '_blank');
+	  win.focus();
+	}
+
 	handleToggle = () => {
 		this.setState({front: !this.state.front})
 	}
@@ -35,20 +41,24 @@ class Project extends React.Component {
 							<img onClick={this.handleToggle} className="project-image" src={require(`../images/${this.props.image}`)} alt="project" />
 							<h3 onClick={this.handleToggle} className="video-tag">{this.props.title}</h3>
 							<h4 onClick={this.handleToggle} className="title-description">{this.props.titleDescription}</h4>
-
-							<Tilt className="tilt">
-								<img onClick={() => this.openGitHub(this.props.github)} className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
-							</Tilt>
 						</div>
 					:
 						<div className="back-card">
 							<div className="back-card-title">
 								<h3 className="project-about" onClick={this.handleToggle}>About</h3>
-								<h3 onClick={this.handleToggle} className="close-out">-</h3>
+								<img onClick={this.handleToggle} className="close-out" src="https://icons-for-free.com/iconfiles/png/512/close+minimize+minus+remove+icon-1320085940035145098.png"/>
 							</div>
 							<ul className="description">
 								{this.props.description.map(bullet => <li>{bullet}</li>)}
 							</ul>
+							<div className="project-links" >
+								<Tilt className="tilt">
+									<img onClick={() => this.openGitHub(this.props.github)} className="project-icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
+								</Tilt>
+								<Tilt className="tilt">
+									<img onClick={() => this.openYoutube(this.props.videoId)} className="project-icon" src="https://www.sccpre.cat/mypng/detail/296-2964019_black-youtube-logo-transparent-logo-youtube-play-png.png" />
+								</Tilt>
+							</div>
 						</div>
 					}
 				</div>

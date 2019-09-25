@@ -9,8 +9,8 @@ class Contact extends React.Component {
 		return (
 			<div className="ContactPage">
 				<div className="Connect">
-					<Tilt>
-						<h1 className="PageTitle"> Connect With Me</h1>
+					<Tilt className="contact-title">
+						<h1 className="PageTitle"> connect with me</h1>
 					</Tilt>
 				</div>
 				<ContactBody />
