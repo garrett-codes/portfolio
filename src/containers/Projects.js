@@ -3,6 +3,10 @@ import Tilt from 'react-tilt';
 import Project from '../components/Project';
 
 class Projects extends React.Component {
+	
+	componentDidMount() {
+	  window.scrollTo(0, 0)
+	}
 
 	render = () => {
 		return (
