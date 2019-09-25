@@ -11,7 +11,7 @@ class About extends React.Component {
 				<div className="about-me-top">
 					<div className="about-me-with-pic" >
 						<div className="me-photo">
-							<img className="me" src="https://media.licdn.com/dms/image/C4E03AQH-D7QbgeY--w/profile-displayphoto-shrink_200_200/0?e=1574294400&v=beta&t=i87RMu3CnhWXOzhfQkp7DLDCktL21ODLEbO-N0Ae28E"/>
+							<img className="me" src={require(`../images/me.JPG`)}/>
 						</div>
 					</div>
 					<div className="blurb-container">
