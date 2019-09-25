@@ -9,8 +9,8 @@ class Home extends React.Component {
 				<Typed className="typewriter" style={{color: '#FFFFFF', fontSize: 64}}
 	        strings={[
 	          'Hello, welcome to my page.',
-	          'Please, explore my projects',
-	          'Please, explore my accomplishments.']}
+	          'Please explore my projects',
+	          'Please explore my accomplishments.']}
 	          typeSpeed={45}
 	          backSpeed={30}
 						>

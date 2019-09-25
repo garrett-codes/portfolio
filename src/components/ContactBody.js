@@ -55,7 +55,7 @@ class ContactBody extends React.Component {
 								<img className="icons" src="https://www.stickpng.com/assets/images/5841c47ba6515b1e0ad75aa3.png" />
 							</Tilt>
 						</div>
-						<div> Medium </div>
+						<div className="blog-icon"> Blog </div>
 					</div>
 					<a className="mail-to" href="mailto:ghalstein97@gmail.com?">
 						<div className="contact-item">

@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
     color: #000000;
+    list-style: none;
   }
 
   body {
+    margin-top: 5vh;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: lighter;
     background-color: rgb(250,250,250);
@@ -23,8 +25,11 @@
   }
 
   .navbar {
+    top: 0;
     font-size: 18px;
     background-color: #000000;
+    position:fixed;
+    z-index: 1;
     /*border: 1px solid rgba(0, 0, 0, 0.2);*/
     /*padding-bottom: 10px;*/
   }
@@ -115,6 +120,10 @@
 
   /********* contact me ***********/
 
+  .blog-icon {
+    margin-left: 7px;
+  }
+
   .Connect {
     display:inline-block;
   }
@@ -186,26 +195,41 @@
 
   /**********about**********/
 
+  .about-me-top {
+    margin-top:8em;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   .about-blurb {
     margin-top: 1em;
     margin-left: 5vw;
     margin-right: 3em;
     color: #000000;
     font-size: 32px;
-    max-width: 35em;
+  }
+
+  .blurb-container {
+    max-width: 55vw;
+
   }
 
   .about-info {
     margin-top: 1em;
     font-size: 21px;
-    line-height: 2em
+    line-height: 4vh;
   }
 
   .me {
+    border: 5px solid #000000;
     margin-top: 5vh;
-    width: 10em;
-    border-radius: 10em;
-    margin-left: 5vw;
+
+    width: 35em;
+    height: 40em;
+    margin-left: 1vw;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4)
   }
 
   .PageTitle {  
@@ -213,6 +237,26 @@
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+  }
+
+  .resume {
+    padding:10px;
+    margin-top:2em;
+    margin-left: 15vw;
+    border: 3px solid #000000;
+    width: 10em;
+    height: 3em;
+    font-size: 20px;
+  }
+
+  .resume:hover {
+    background: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .resume:focus {
+    outline:none;
   }
 
   @keyframes floating {
@@ -227,6 +271,7 @@
 
   .about-me {
     margin-top: 0;
+    display: inline-block;
   }
 
   .Tilt {
@@ -235,6 +280,17 @@
 
   .title-tilt {
     display:inline-block;
+  }
+
+  .interests {
+    line-height: 5vh;
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 5em;
+  }
+
+  .interest {
+    margin-right: 1em;
   }
 
   /***********Projects********/
@@ -305,19 +361,52 @@
     width: 3em;
   }
 
-  .icons-container {
-    margin-top: 2em;
+  .skills-about {
+    margin-top: 4em;
+    margin-left: 5vw;
+    font-size: 35px;
+    font-weight: lighter;
+  }
+
+
+  .skills-tilt {
     display: inline-block;
   }
 
+  .icons-container {
+    /*margin-top: 1em;*/
+    display: flex;
+    width: 95vw;
+    flex-wrap: wrap;
+  }
+
   .tech-icon {
-    max-height: 8em;
-    max-width: 8em;
+    height: 4em;
+    width: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+  }
+
+  .skills-title {
+    margin-bottom: 15px;
+  }
+
+  .stack-container {
+    display:flex;
+    flex-wrap:wrap;
   }
 
   .tech-icon-tilt {
     max-height: 8em;
     max-width: 8em;
+  }
+
+  .skills-title {
+    animation-name: floats;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
   }
 
   .tech-icon {  
@@ -382,3 +471,29 @@
     margin-bottom: 1em;
   }
 
+
+/*
+media queries
+*/
+@media only screen and (max-width: 700px) {
+    .about-me-top {
+      display: inline-block;
+    }
+    .me {
+      width: 20em;
+      height: 20em;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .blurb-container {
+      width: 90vw;
+    }
+    .about-blurb {
+      width: 90vw;
+    }
+
+    .typewriter  span {
+      font-size: 40px;
+    }
+  }
