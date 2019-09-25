@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import { Link } from 'react-router-dom';
-import WaterWave from 'react-water-wave';
+import Tilt from 'react-tilt';
 
 class Home extends React.Component {
 
@@ -17,7 +17,7 @@ class Home extends React.Component {
 						<Link to="/about"><h1 className="my-name">Garrett Halstein</h1></Link>
 						<h1 className="software-developer">software developer</h1>
 					</div>
-					<img className="home-background" src={require(`../images/home-background.jpeg`)} />
+						<img className="home-background" src={require(`../images/home-background.jpeg`)} />
 				</div>
 				<div className="typewriter"> 
 					<Typed className="typewriter" style={{color: '#FFFFFF', fontSize: 64}}

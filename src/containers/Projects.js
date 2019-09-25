@@ -1,6 +1,7 @@
 import React from 'react';
 import Tilt from 'react-tilt';
 import Project from '../components/Project';
+import Bottom from '../components/Bottom';
 
 class Projects extends React.Component {
 	
@@ -54,6 +55,7 @@ class Projects extends React.Component {
 						image={'myStocks-photo.png'}
 					/>
 				</div>
+				<Bottom />
 			</div>
 		)
 	}
