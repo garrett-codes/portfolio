@@ -8,7 +8,7 @@ class Projects extends React.Component {
 		return (
 			<div className="my-projects">
 				<div className="projects-title">
-					<Tilt >
+					<Tilt className="title-tilt">
 						<h1 className="PageTitle"> My Projects</h1>
 					</Tilt>
 				</div>
@@ -23,6 +23,7 @@ class Projects extends React.Component {
 						"+ Implemented the user interface with fully CSS styling."]}
 						github={'furbook-frontend'}
 						videoId={"8eRqKUlNYiA"}
+						image='Furbook-photo.png'
 					/>
 					<Project 
 						title={"Chello"}
@@ -34,6 +35,7 @@ class Projects extends React.Component {
 						"+ Implemented the user interface with fully CSS styling."]}
 						github={'tGRAH-front-end'}
 						videoId={"vYR5io-r43Q"}
+						image='Chello-photo.png'
 					/>
 					<Project 
 						title={"myStocks"}
@@ -45,6 +47,7 @@ class Projects extends React.Component {
 						]}
 						github={'Stocks'}
 						videoId={"FD5SZM5NosQ"}
+						image={'myStocks-photo.png'}
 					/>
 				</div>
 			</div>
