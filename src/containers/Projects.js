@@ -9,7 +9,7 @@ class Projects extends React.Component {
 			<div className="my-projects">
 				<div className="projects-title">
 					<Tilt className="title-tilt">
-						<h1 className="PageTitle"> My Projects</h1>
+						<h1 className="PageTitle"> Projects</h1>
 					</Tilt>
 				</div>
 				<div className="projects">
