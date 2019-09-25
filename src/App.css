@@ -242,6 +242,7 @@
     min-width: 15em;
     border: 2px solid #000000;
     padding: 10px;
+    /*align-self: flex-start;*/
   }
 
   .video-tag {
