@@ -6,7 +6,7 @@ class Home extends React.Component {
 	render = () => {
 		return (
 			<div className="typewriter"> 
-				<Typed style={{color: '#FFFFFF', fontSize: 64}}
+				<Typed className="typewriter" style={{color: '#FFFFFF', fontSize: 64}}
 	        strings={[
 	          'Hello, welcome to my page.',
 	          'Please, explore my projects',

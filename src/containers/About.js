@@ -1,5 +1,6 @@
 import React from 'react';
 import Tilt from 'react-tilt';
+import Icon from '../components/Icon';
 
 class About extends React.Component {
 
@@ -14,6 +15,10 @@ class About extends React.Component {
 				</div>
 				<div className="about-blurb">
 					Hi. I am a Fullstack developer with a passion for building, teaching and learning. I have experience in Java, Ruby on Rails, JavaScript, React, Redux and a background in Chemistry and Quantitative Sciences. I discovered software development through my university classes and have enjoyed challenging myself with projects since. I love collaborating, analyzing data and taking on new challenges. 
+				</div>
+				<div className="icons-container">
+					<Icon link={"http://pluspng.com/img-png/java-png-java-png-clipart-png-image-200.png"}/>
+					<Icon link={'http://pluspng.com/img-png/logo-javascript-png-javascript-tutorials-400.png'}/>
 				</div>
 			</div>
 		)
