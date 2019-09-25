@@ -22,6 +22,7 @@ class Project extends React.Component {
 		// debugger
 		return (
 				<div className="video">
+					<img className="project-image" src={require(`../images/${this.props.image}`)} alt="project" />
 					<h3 className="video-tag">{this.props.title}</h3>
 					<h4 className="title-description">{this.props.titleDescription}</h4>
 						<ul className="description">
@@ -30,11 +31,6 @@ class Project extends React.Component {
 					<Tilt  className="tilt">
 						<img onClick={() => this.openGitHub(this.props.github)} className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
 					</Tilt>
-					<YouTube
-		        videoId={this.props.videoId}
-		        opts={this.ops}
-		        onReady={this._onReady}
-		      />
 				</div>
 		)
 	}
