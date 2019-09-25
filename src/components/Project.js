@@ -4,6 +4,10 @@ import YouTube from 'react-youtube';
 
 class Project extends React.Component {
 	
+	state = {
+		front: true
+	}
+
 	ops = {
     width: '300vw',
     height: '200vh',
@@ -18,19 +22,32 @@ class Project extends React.Component {
 	  win.focus();
 	}
 
+	handleToggle = () => {
+		this.setState({front: !this.state.front})
+	}
+
 	render = () => {
 		// debugger
 		return (
 				<div className="video">
-					<img className="project-image" src={require(`../images/${this.props.image}`)} alt="project" />
-					<h3 className="video-tag">{this.props.title}</h3>
-					<h4 className="title-description">{this.props.titleDescription}</h4>
-						<ul className="description">
-							{this.props.description.map(bullet => <li>{bullet}</li>)}
-						</ul>
-					<Tilt  className="tilt">
-						<img onClick={() => this.openGitHub(this.props.github)} className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
-					</Tilt>
+					{this.state.front ?
+						<div className="front-card">
+							<img onClick={this.handleToggle} className="project-image" src={require(`../images/${this.props.image}`)} alt="project" />
+							<h3 onClick={this.handleToggle} className="video-tag">{this.props.title}</h3>
+							<h4 onClick={this.handleToggle} className="title-description">{this.props.titleDescription}</h4>
+
+							<Tilt className="tilt">
+								<img onClick={() => this.openGitHub(this.props.github)} className="icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
+							</Tilt>
+						</div>
+					:
+						<div className="back-card">
+							<h3 classnName="project-about">About</h3>
+							<ul className="description">
+								{this.props.description.map(bullet => <li>{bullet}</li>)}
+							</ul>
+						</div>
+					}
 				</div>
 		)
 	}

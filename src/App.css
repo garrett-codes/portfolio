@@ -239,9 +239,10 @@
     margin-top: 3em;
     margin-left: 5vw;
     width: 25vw;
-    min-width: 10em;
+    min-width: 15em;
     border: 2px solid #000000;
     padding: 10px;
+    /*align-self: flex-start;*/
   }
 
   .video-tag {
@@ -309,7 +310,8 @@
   }
 
   .project-image {
-    width: 23vw;
-    min-width: 9em;
+    width: 25vw;
+    min-width: 15em;
+    margin: 0 auto;
   }
 
