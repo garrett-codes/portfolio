@@ -9,7 +9,16 @@ class Home extends React.Component {
 	  window.scrollTo(0, 0)
 	}
 
+	state = {
+		explore: false
+	}
+
+	displayButton = () => {
+		this.setState({explore: true})
+	}
+
 	render = () => {
+		setTimeout(this.displayButton, 7000);
 		return (
 			<div className="home-container">
 				<div className="background-container">
@@ -20,15 +29,16 @@ class Home extends React.Component {
 						<img className="home-background" src={require(`../images/home-background.jpeg`)} />
 				</div>
 				<div className="typewriter"> 
-					<Typed className="typewriter" style={{color: '#FFFFFF', fontSize: 64}}
+					<Typed className="writer" style={{color: '#FFFFFF', fontSize: 64}}
 		        strings={[
-		          'Hello, welcome to my page.',
-		          'Please explore my projects',
-		          'Please explore my accomplishments.']}
+		          'Hello.',
+		          'Welcome to my page.',
+		          'Please check out my projects.']}
 		          typeSpeed={45}
 		          backSpeed={30}
 							>
 		      </Typed>
+		      {this.state.explore ? <Link to="/projects"><button className="explore">explore</button></Link> : null}
 				</div>
 			</div>
 		)
