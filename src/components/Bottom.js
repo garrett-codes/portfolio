@@ -11,7 +11,7 @@ class Bottom extends React.Component {
 					Designed in HTML5/CSS3
 				</div>
 				<div className="by-me">
-					By Garrett Halstein
+					Created by Garrett Halstein
 				</div>
 			</div>
 		)
