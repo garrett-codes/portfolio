@@ -38,7 +38,7 @@ class Home extends React.Component {
 		          backSpeed={30}
 							>
 		      </Typed>
-		      {this.state.explore ? <Link to="/projects"><button className="explore">explore</button></Link> : null}
+		      {this.state.explore ? <Link to="/projects"><button className="explore">explore</button></Link> : <Link to="/projects"><button className="no-show">explore</button></Link>}
 				</div>
 			</div>
 		)
