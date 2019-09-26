@@ -24,7 +24,7 @@ class About extends React.Component {
 							<h1 className="PageTitle about-me"> about me </h1>
 						</Tilt>
 						<div className="about-blurb">
-							I'm a fullstack developer from the greater New York area. 
+							I'm a fullstack developer from the greater New York City area. 
 							<div className="about-info">
 								I have a passion for building, teaching and learning. I'm experienced in Java, Ruby on Rails, JavaScript, React, Redux and have a background in Computer Science and Chemistry. I discovered software development through my university classes and have enjoyed challenging myself with projects since. 
 							</div>
