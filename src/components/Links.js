@@ -9,7 +9,7 @@ class Links extends React.Component {
 			  <div className="other-links ">
 				  <div className="nav-links"><Link to='/projects' className="other-link" style={{color: '#FFFFFF'}} >Projects</Link></div>
 				  <div className="nav-links"><Link to="/about" className="other-link" style={{color: '#FFFFFF'}}>About</Link></div>
-				  <div className="nav-links"><Link to="/contact" className="other-link" style={{color: '#FFFFFF'}}>Contact</Link></div>
+				  <div className="nav-links"><Link to="/contact" className="other-link" style={{color: '#FFFFFF'}}>Connect</Link></div>
 				</div>
 			</div>
 		)
