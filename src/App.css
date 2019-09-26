@@ -411,6 +411,8 @@
 
   .my-projects {
     display: inline-block;
+    width:100vw;
+    overflow: hidden;
   }
 
   .projects {
@@ -507,6 +509,7 @@
   }
 
   .stack-container {
+    width: 90vw;
     display:flex;
     flex-wrap:wrap;
   }
