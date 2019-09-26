@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactBody from '../components/ContactBody';
 import Tilt from 'react-tilt';
+import Bottom from '../components/Bottom';
 
 
 class Contact extends React.Component {
@@ -14,6 +15,7 @@ class Contact extends React.Component {
 					</Tilt>
 				</div>
 				<ContactBody />
+				<Bottom/>
 			</div>
 		)
 	}
