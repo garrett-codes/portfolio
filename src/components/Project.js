@@ -56,21 +56,41 @@ class Project extends React.Component {
 						<div className="back-card">
 							<div className="back-card-title">
 								<h3 className="project-about" onClick={this.handleToggle}>About</h3>
-								<img onClick={this.handleToggle} className="close-out" src="https://icons-for-free.com/iconfiles/png/512/close+minimize+minus+remove+icon-1320085940035145098.png"/>
+								<img 
+									onClick={this.handleToggle} 
+									className="close-out" src="https://icons-for-free.com/iconfiles/png/512/close+minimize+minus+remove+icon-1320085940035145098.png"
+								/>
 							</div>
 							<ul className="description">
 								{this.props.description.map(bullet => <li>{bullet}</li>)}
 							</ul>
 							<div className="project-links" >
 								<Tilt className="tilt">
-									<img onClick={() => this.openGitHub(this.props.github)} className="project-icon" src="https://i.dlpng.com/static/png/4033681_preview.png" />
+									<img 
+										onClick={() => this.openGitHub(this.props.github)} 
+										className="project-icon" 
+										alt="github repository"
+										src="https://i.dlpng.com/static/png/4033681_preview.png" 
+									/>
 								</Tilt>
 								<Tilt className="tilt">
-									<img onClick={() => this.openYoutube(this.props.videoId)} className="project-icon" src="https://www.sccpre.cat/mypng/detail/296-2964019_black-youtube-logo-transparent-logo-youtube-play-png.png" />
+									<img 
+										onClick={() => this.openYoutube(this.props.videoId)} 
+										className="project-icon" 
+										alt="demo video"
+										src="https://www.sccpre.cat/mypng/detail/296-2964019_black-youtube-logo-transparent-logo-youtube-play-png.png" 
+									/>
 								</Tilt>
 								{this.props.hasOwnProperty("app") ?
 									<Tilt>
-										<img onClick={() => this.openApp(this.props.app)} className="project-icon" src="https://cdn.iconscout.com/icon/free/png-512/heroku-5-569467.png" />
+										<img 
+											onClick={() => this.openApp(this.props.app)} 
+											className="project-icon" 
+											src="https://cdn.iconscout.com/icon/free/png-512/heroku-5-569467.png" 
+											alt="live application"
+											onMouseEnter={this.someHandler}
+    									onMouseLeave={this.someOtherHandler}
+										/>
 									</Tilt>
 								:
 									null
