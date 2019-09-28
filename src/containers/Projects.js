@@ -29,6 +29,7 @@ class Projects extends React.Component {
 						github={'furbook-frontend'}
 						videoId={"8eRqKUlNYiA"}
 						image='Furbook-photo.png'
+						app='https://furbook.herokuapp.com'
 					/>
 					<Project 
 						title={"Chello"}

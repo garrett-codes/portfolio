@@ -32,6 +32,12 @@ class Project extends React.Component {
 	  win.focus();
 	}
 
+	openApp = (link) => {
+		// debugger
+	  let win = window.open(link, '_blank');
+	  win.focus();
+	}
+
 	handleToggle = () => {
 		this.setState({front: !this.state.front})
 	}
@@ -62,6 +68,13 @@ class Project extends React.Component {
 								<Tilt className="tilt">
 									<img onClick={() => this.openYoutube(this.props.videoId)} className="project-icon" src="https://www.sccpre.cat/mypng/detail/296-2964019_black-youtube-logo-transparent-logo-youtube-play-png.png" />
 								</Tilt>
+								{this.props.hasOwnProperty("app") ?
+									<Tilt>
+										<img onClick={() => this.openApp(this.props.app)} className="project-icon" src="https://cdn.iconscout.com/icon/free/png-512/heroku-5-569467.png" />
+									</Tilt>
+								:
+									null
+								}
 							</div>
 						</div>
 					}
