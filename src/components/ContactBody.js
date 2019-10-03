@@ -34,7 +34,7 @@ class ContactBody extends React.Component {
           <div className="contact-item" onClick={this.openGitHub}>
             <div className="img-div">
               <Tilt className="Tilt" >
-                <img className="icons" src="https://i.dlpng.com/static/png/4033681_preview.png" />
+                <img className="icons" src="https://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" />
               </Tilt>
             </div>
             <div> Github </div>
