@@ -62,7 +62,7 @@ class Project extends React.Component {
 								/>
 							</div>
 							<ul className="description">
-								{this.props.description.map(bullet => <li>{bullet}</li>)}
+								{this.props.description.map(bullet => <li className="description">{bullet}</li>)}
 							</ul>
 							<div className="project-links" >
 								<Tilt className="tilt">
