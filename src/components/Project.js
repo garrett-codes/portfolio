@@ -55,15 +55,15 @@ class Project extends React.Component {
 					:
 						<div className="back-card">
 							<div className="back-card-title">
-								<h3 className="project-about" onClick={this.handleToggle}>About</h3>
+								<h2 className="project-about" onClick={this.handleToggle}>About</h2>
 								<img 
 									onClick={this.handleToggle} 
 									className="close-out" src="https://icons-for-free.com/iconfiles/png/512/close+minimize+minus+remove+icon-1320085940035145098.png"
 								/>
 							</div>
-							<ul className="description">
-								{this.props.description.map(bullet => <li>{bullet}</li>)}
-							</ul>
+							<div className="description">
+								{this.props.description.map(bullet => <li className="project-description">{bullet}</li>)}
+							</div>
 							<div className="project-links" >
 								<Tilt className="tilt">
 									<img 
