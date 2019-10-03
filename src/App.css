@@ -509,11 +509,16 @@
   }
 
   .tech-icon {
-    height: 4em;
+    height: auto;
+    width: auto;
     width: 4em;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-right: 2em;
+  }
+
+  .tech-icon.rails {
+    width:3em;
   }
 
   .skills-title {
@@ -723,8 +728,9 @@ media queries
     }
 
     .tech-icon {
+      height: auto;
+      width:auto;
       width: 20vw;
-      height: 20vw;
     }
 
     .interest {
