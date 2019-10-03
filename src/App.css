@@ -437,7 +437,7 @@
   .video {
     margin-top: 3em;
     margin-right: 2vw;
-    width: 28vw;
+    width: 40vw;
     min-width: 15em;
     /*border: 1px solid #000000;*/
     padding: 10px;
@@ -467,9 +467,14 @@
     display: inline-block;
   }
 
+  .front-card, .back-card {
+    
+  }
+
   .description {
     list-style:none;
     color: white;
+    overflow-y:auto;
   }
   .description li {
     margin-bottom: 1em;
@@ -577,13 +582,17 @@
   }
 
   .project-image {
-    width: 28vw;
+    width: 40vw;
     min-width: 15em;
     margin: 0 auto;
   }
 
   .project-about {
     width: 3em;
+  }
+
+  .project-description {
+    font-size: 24px;
   }
 
   .back-card-title {
@@ -621,7 +630,7 @@
   }
 
   .description {
-    max-height: 20vh;
+    max-height: 18vw;
     overflow:scroll;
     margin-bottom: 1em;
   }
@@ -662,6 +671,10 @@ media queries
   @media only screen and (max-width: 700px) {
     .blurb-container {
       width: 90vw;
+    }
+
+    .project-description {
+      font-size: 18px;
     }
     .about-blurb {
       width: 90vw;
