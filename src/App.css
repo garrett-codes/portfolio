@@ -537,23 +537,24 @@
   }
 
   .tech-icon-tilt {
-    max-height: 8em;
-    max-width: 8em;
+    max-height: auto;
+    max-width: 4em;
+    margin-right: 1em;
   }
 
   .tech-icon.js {
-    width: 100px;
+    width: 110px;
     height: 110px;
   }
 
   .tech-icon.css {
-    width: 140px;
-    height: 120px;
+    width: 175px;
+    height: 130px;
   }
 
   .tech-icon.html {
-    width: 110px;
-    height: 125px;
+    width: 133px;
+    height: 138px;
   }
 
   .tech-icon.react {
@@ -757,18 +758,22 @@ media queries
 
     .tech-icon.css {
       width: 25vw;
-      height: 20vw;
+      height: 18vw;
       margin-left:-10px;
     }
 
     .tech-icon.js {
       width: 17vw;
-      height: 19vw;
+      height: 11vh;
     }
 
     .tech-icon.html {
       width: 20vw;
       height: 20vw;
+    }
+
+    .tech-icon.rails {
+      width: 15vw;
     }
 
     .tech-icon.react {
