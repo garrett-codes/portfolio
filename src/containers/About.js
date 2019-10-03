@@ -51,8 +51,8 @@ class About extends React.Component {
 							</div>
 							frontend
 							<div className="stack-container">
-								<Icon type="js" link={'http://pluspng.com/img-png/logo-javascript-png-javascript-tutorials-400.png'}/>
 								<Icon type="react" link={'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png'}/>
+								<Icon type="js" link={'http://pluspng.com/img-png/logo-javascript-png-javascript-tutorials-400.png'}/>
 								<Icon type="css" link={'https://fuzati.com/wp-content/uploads/2016/12/CSS-Logo.png'}/>
 								<Icon type="html"link={'https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png'}/>
 							</div>
