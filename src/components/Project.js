@@ -70,7 +70,7 @@ class Project extends React.Component {
                     onClick={() => this.openGitHub(this.props.github)} 
                     className="project-icon" 
                     alt="github repository"
-                    src="https://i.dlpng.com/static/png/4033681_preview.png" 
+                    src="https://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" 
                   />
                 </Tilt>
                 <Tilt className="tilt">
