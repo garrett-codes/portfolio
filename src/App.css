@@ -415,7 +415,7 @@
     border: 1px solid #000000;
     padding:5px;
     margin-left: 3vw;
-    width: 10em;
+    width: 0em;
     height: 3em;
     font-size: 20px;
   }
@@ -544,12 +544,21 @@
 
   .tech-icon.js {
     width: 110px;
-    height: 110px;
+    /* height: 110px; */
     margin-top: 60px;
   }
 
   .tech-icon.java {
     margin-top: 10px;
+  }
+
+  .tech-icon.python {
+    width: 110px;
+  }
+
+  .tech-icon.d3 {
+    margin-top: 50px;
+    width: 110px;
   }
 
   .tech-icon.css {
@@ -730,6 +739,10 @@ media queries
 
     }
 
+    .stack-container {
+      display:block;
+    }
+
     .background-container {
       max-height: 50vh;
       overflow:hidden;
@@ -774,8 +787,13 @@ media queries
     }
 
     .tech-icon.js {
-      width: 17vw;
-      height: 11vh;
+      width: 16vw;
+      /* height: 11vh; */
+    }
+
+    .tech-icon.d3 {
+      margin-top:60px;
+      width: 16vw;
     }
 
     .tech-icon.html {
@@ -786,6 +804,12 @@ media queries
     .tech-icon.rails {
       width: 15vw;
     }
+
+    .tech-icon.python {
+      width: 15vw;
+    }
+
+    
 
     .tech-icon.react {
       width: 25vw;
